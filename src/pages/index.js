@@ -8,14 +8,19 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <h1>Hi ya'll</h1>
+    <p>We're goin to touch briefly on three topics today:</p>
+    <ul>
+      <li>What is map()</li>
+      <li>
+        What is asynchronous programming and how does it play a role in
+        Javascript?
+      </li>
+      <li>
+        How could we efficiently render multiple items to the DOM using JS.
+      </li>
+    </ul>
+    <Link to="/slides/slide-1/">Let's get started!</Link> <br />
   </Layout>
 )
 
