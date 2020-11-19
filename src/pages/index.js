@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -20,7 +19,7 @@ const IndexPage = () => (
         How could we efficiently render multiple items to the DOM using JS.
       </li>
     </ul>
-    <Link to="/slides/slide-1/">Let's get started!</Link> <br />
+    <Link to="/slide-1/">Let's get started!</Link> <br />
   </Layout>
 )
 
